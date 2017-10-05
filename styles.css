@@ -1,3 +1,12 @@
+/* Global Colours - Reference:
+    Text - #3f2b2f (Chocolate -Plum)
+    Background - #dacfcd (Latte)
+    Deeper Background - #7a6e67 (Chocolate-Grey)
+    Accent Colour 1 - #ff6666 (Coral)
+    Accent Colour 2 - #ffe1df (Blush)
+*/
+
+
 /* Global Layout Set-up */
 * { 
   box-sizing: border-box;
@@ -7,25 +16,25 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #222;
-  background: #f7f5f0;
+  font-family: 'Montserrat', sans-serif;
+  color: #3f2b2f;
+  background: #dacfcd;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: white;
 }
 a:hover {
-  color: #6633ff;
+  color: #ff6666;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #7a6e67;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -52,7 +61,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #ff6666;
 }
 
 header {
@@ -67,10 +76,10 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 5px solid rgba(255, 102, 102, .9);
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -78,15 +87,15 @@ header .profile-image:hover {
 }
 .tag {
   background-color: #efefef;
-  color: black;
+  color: rgba(255, 102, 102, 1);
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: rgba(255, 102, 102, .9);
+  color: white;
 }
 .card {
   margin: 30px;
