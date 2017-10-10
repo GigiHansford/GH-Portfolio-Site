@@ -33,12 +33,21 @@ a:hover {
   color: #ff6666;
 }
 
+.current-experience {
+  padding: 10px;
+  max-width: 240px;
+  box-shadow: 3px 3px 5px;
+  background-color: #ffe1df;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
 .current-experience a {
-  color: #ff6666;
+  color: #3f2b2f;
 }
 
 .current-experience a:hover {
-  color: #ffe1df;
+  text-decoration: underline;
 }
 
 /* Section Styles */
@@ -81,10 +90,10 @@ header {
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
-}
-header {
   line-height: 1.5;
 }
+
+
 header .profile-image {
   margin-top: 50px;
   width: 200px;
@@ -127,10 +136,8 @@ header .profile-image:hover {
 }
 
 .card-img1 {
-  border-radius: 9%;
   max-width: 100%;
-  margin: auto;
-  margin-top: -10px;
+  margin: -10px auto;
 }
 
 ul.skills,
@@ -160,6 +167,7 @@ ul.hobbies {
 .current-experience {
   text-align: center;
 }
+
 
 footer {
   width: 100%;
@@ -210,6 +218,24 @@ a.social:hover {
   clear: both;
 }
 
+
+
+/* Experience Page */
+
+ .large-img {
+    display: none;
+  }
+
+  .experience-intro {
+    padding: 3%;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
@@ -247,8 +273,26 @@ a.social:hover {
 
   footer {
     font-size: 1.3em;
-    max-width: 1200px;
+/*    max-width: 1200px;*/
     margin: 40px auto;
+  }
+  
+ /* Experience Page */
+  
+  .experience-intro {
+    padding: 3%;
+    margin: auto;
+  }
+  
+  .small-img {
+    display: none;
+    text-align: center;
+    margin: 50px auto;
+    padding: 50px;
+  }
+  
+  .large-img {
+    display: inline-block;
   }
 
 }
